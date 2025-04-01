@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Калькулятор</title>
+</head>
+<body>
+<h1>Калькулятор</h1>
+<form id="calculator1">
+    <div>
+        <label for="input1">Потужність МВт:</label>
+        <input type="number" step="any" id="input1" required>
+    </div>
+    <div>
+        <label for="input2">Початкова похибка:</label>
+        <input type="number" step="any" id="input2" required>
+    </div>
+    <div>
+        <label for="input3">Зменшена похибка:</label>
+        <input type="number" step="any" id="input3" required>
+    </div>
+    <div>
+        <label for="input4">Вартість грн\КВт*год:</label>
+        <input type="number" step="any" id="input4" required>
+    </div>
+    <button type="submit">Обчислити</button>
+</form>
+<p id="result">Результати: </p>
+<script src="script.js"></script>
+
+</body>
+</html>
